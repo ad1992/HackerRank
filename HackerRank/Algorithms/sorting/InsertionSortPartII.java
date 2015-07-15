@@ -1,22 +1,20 @@
-package others;
+package sorting;
+
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 /**
  * @author Aakansha Doshi
  *
  */
-public class InsertionSort {
+public class InsertionSortPartII {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));	
-		BufferedWriter obr=new BufferedWriter(new OutputStreamWriter(System.out));
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));			
 		int size=Integer.parseInt(br.readLine());
 		int arr[]=new int[size];
 		String s=br.readLine();
@@ -24,7 +22,8 @@ public class InsertionSort {
 		for(int i=0;i<size;i++)
 		{
 			arr[i]=Integer.parseInt(st.nextToken());
-		}for(int i=1;i<size;i++)
+		}
+		for(int i=1;i<size;i++)
 		{
 			
 			int j=i-1;;int temp=arr[i];
