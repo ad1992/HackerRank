@@ -1,4 +1,4 @@
-package combinatorics;
+package fundamentals;
 
 import java.io.BufferedReader;
 import java.io.IOException;
