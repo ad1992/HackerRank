@@ -13,6 +13,7 @@ L≤A≤B≤R
 The input contains two lines; L is present in the first line and R in the second line.
 
 ###Constraints###
+
 1≤L≤R≤10<sup>3</sup>
 
 ###Output Format###

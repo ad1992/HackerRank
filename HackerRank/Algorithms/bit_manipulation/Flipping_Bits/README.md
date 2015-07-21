@@ -11,10 +11,10 @@ You will be given a list of 32 bits unsigned integers. You are required to outpu
 The first line of the input contains the list size T, which is followed by T lines, each line having an integer from the list.
 
 ###Constraints###
-```
-1≤T≤100
-0≤integer<2<sup>32</sup>
-```
+
+1≤T≤100    
+0≤integer<2<sup>32</sup> 
+
 ###Output Format###
 
 Output one line per element from the list with the requested result.
