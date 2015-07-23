@@ -1,4 +1,4 @@
-package number_theory;
+package number_theory.closest_number;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,23 +6,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * @author Aakansha Doshi
- * 
- *         Problem Statement
- * 
- *         You are given 3 numbers a, b and x. You need to output the multiple
- *         of x which is closest to ab. If more than one answer exists , display
- *         the smallest one.
- * 
- *         Input Format The first line contains T, the number of testcases. T
- *         lines follow, each line contains 3 space separated integers (a, b and
- *         x respectively)
- * 
- *         Output Format For each test case , output the multiple of x which is
- *         closest to ab
- * 
- *         Constraints 1 ≤ T ≤ 105 1 ≤ x ≤ 109 0 < ab ≤ 109 1 ≤ a ≤ 109 -109 ≤ b
- *         ≤ 109
+ * @author Aakansha Doshi 
+ *       
  * 
  */
 public class Closest_Number {

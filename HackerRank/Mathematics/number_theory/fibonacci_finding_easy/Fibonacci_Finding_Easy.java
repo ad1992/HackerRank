@@ -1,4 +1,4 @@
-package number_theory;
+package number_theory.fibonacci_finding_easy;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,19 +6,6 @@ import java.util.StringTokenizer;
 
 /**
  * @author Aakansha Doshi
- * 
- *         Problem Statement
- * 
- *         You're given three numbers: A, B, and N, and all you have to do is to
- *         find the number FN where F0=AF1=BFi=Fi−1+Fi−2 for i≥2
- * 
- *         As the number can be very large, output it modulo 10^9+7.
- * 
- *         Consider the following link:
- *         http://en.wikipedia.org/wiki/Fibonacci_number#Matrix_form
- * 
- *         Input Format First line contains a single integer T - the number of
- *         tests. T lines follow, each containing three integers: A, B and N.
  * 
  */
 public class Fibonacci_Finding_Easy {

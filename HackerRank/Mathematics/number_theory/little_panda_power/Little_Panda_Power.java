@@ -1,4 +1,4 @@
-package number_theory;
+package number_theory.little_panda_power;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,30 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * @author Aakansha Doshi
- * 
- *         Problem Statement
- * 
- *         Little Panda has a thing for powers and modulus and he likes
- *         challenges. His friend Lucy, however, is impractical and challenges
- *         Panda to find both positive and negative powers of a number modulo a
- *         particular number. We all know that A−1modX refers to the modular
- *         inverse of A modulo X (see Wikipedia).
- * 
- *         Since Lucy is impractical, she says that A−nmodX=(A−1modX)nmodX for
- *         n>0.
- * 
- *         Now she wants Panda to compute ABmodX.
- * 
- *         She also thinks that this problem can be very difficult if the
- *         constraints aren't given properly. Little Panda is very confused and
- *         leaves the problem to the worthy programmers of the world. Help him
- *         in finding the solution.
- * 
- *         Input Format The first line contains T, the number of test cases.
- *         Then T lines follow, each line containing A, B and X.
- * 
- *         Output Format Output the value of ABmodX.
+ * @author Aakansha Doshi 
  * 
  */
 public class Little_Panda_Power {

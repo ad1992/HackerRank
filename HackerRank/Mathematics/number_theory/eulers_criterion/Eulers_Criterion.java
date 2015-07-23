@@ -1,4 +1,4 @@
-package number_theory;
+package number_theory.eulers_criterion;
 
 
 import java.io.BufferedReader;
@@ -8,29 +8,6 @@ import java.util.StringTokenizer;
 
 /**
  * @author Aakansha Doshi
- * 
- * 
- *         Problem Statement
- * 
- *         Your friend gives you an equation A≡X2(modM) and asks you to find an
- *         integer solution for X.
- * 
- *         However, you know your friend's mischievous nature and suspect that
- *         there is no solution to such an equation. Thus, you first want to
- *         find out whether there is a solution to it.
- * 
- *         You may find this link helpful:
- *         http://en.wikipedia.org/wiki/Euler%27s_criterion
- * 
- *         Input Format
- * 
- *         The first line contains the number of cases, T. T lines follow, each
- *         containing two integers A and M separated by a single space.
- * 
- *         Output Format
- * 
- *         Output T lines, each containing one word: YES, if a solution exists
- *         and NO otherwise.
  */
 public class Eulers_Criterion {
 
