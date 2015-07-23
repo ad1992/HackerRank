@@ -18,11 +18,11 @@ Output T lines, each containing one word: YES, if a solution exists and NO other
 
 ###Constraints###
 
-0<T≤10<sup>5</sup>  
+0 < T ≤10<sup>5</sup>  
 
-2≤M<10<sup>9</sup>, M is prime  
+2 ≤ M <10<sup>9</sup>, M is prime  
 
-0≤A<M  
+0 ≤A< M  
 
 ###Sample Input###
 ```
