@@ -18,10 +18,10 @@ Then T lines follow, each line containing A, B and X.
 Output the value of A<sup>B</sup>modX.
 
 ###Constraints###
-1≤T≤1000
-1≤A≤10<sup>6
-−10<sup>6</sup>≤B≤10<sup>6</sup>
-1≤X≤10<sup>6</sup>
+1≤T≤1000  
+1≤A≤10<sup>6  
+−10<sup>6</sup>≤B≤10<sup>6</sup>  
+1≤X≤10<sup>6</sup>  
 A and X are coprime to each other (see Wikipedia)
 
 ###Sample Input###
@@ -38,6 +38,6 @@ A and X are coprime to each other (see Wikipedia)
 4  
 ```
 ###Explanation###
-Case 1: 1<sup>2</sup>mod3=1mod3=1
-Case 2: 3<sup>4</sup>mod2=81mod2=1
-Case 3: 4<sup>−1</sup>mod5=4
+Case 1: 1<sup>2</sup>mod3=1mod3=1  
+Case 2: 3<sup>4</sup>mod2=81mod2=1  
+Case 3: 4<sup>−1</sup>mod5=4  
