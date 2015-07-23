@@ -19,10 +19,13 @@ Output the value of A<sup>B</sup>modX.
 
 ###Constraints###
 1≤T≤1000  
+
 1≤A≤10<sup>6  
+
 −10<sup>6</sup>≤B≤10<sup>6</sup>  
+
 1≤X≤10<sup>6</sup>  
-A and X are coprime to each other (see Wikipedia)
+
 
 ###Sample Input###
 ```
