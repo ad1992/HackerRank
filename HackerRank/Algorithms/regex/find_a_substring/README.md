@@ -10,9 +10,12 @@ We define a substring as follows.
 * The given substring must be preceeded and succeeded by letters or numerics or an underscore.
 
 A word will be surrounded by 1 or more occurrences of non-letter, non-numeric and non-underscore ( not an underscore ) characters - or the beginning or end of a line on one side.  
-``
-<non letter, non-numeral ,non-underscore ><letters, numerals and underscore><non letter, non numerals, non underscore>
+  
 ```
+<non letter, non-numeral ,non-underscore ><letters, numerals and underscore><non letter, non numerals, non underscore>
+
+```
+
 Given a sentence, can you find the total number of occurrences of the substring?
 
 ###Input Format###
