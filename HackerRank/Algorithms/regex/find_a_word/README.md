@@ -15,8 +15,8 @@ The Nth sentence is immediately followed by an integer T. T lines follow, with t
 
 ###Constraints###
 
-1 <= N <= 100
-1 <= T <= 10
+1 <= N <= 100  
+1 <= T <= 10  
 
 ###Output format###
 
