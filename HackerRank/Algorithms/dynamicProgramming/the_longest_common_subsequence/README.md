@@ -13,9 +13,9 @@ In case multiple solutions exist, print any of them. It is guaranteed that at le
 
 First line contains two space separated integers, n and m, where n is the size of sequence A, while m is size of sequence B. In next line there are n space separated integers representing sequence A, and in third line there are m space separated integers representing sequence B.
 
-n m  
-A<sub>1</sub> A<sub>2</sub> … A<sub>n</sub> 
-B<sub>1</sub> B<sub>2</sub> … B<sub>m</sub>   
+n m    
+A<sub>1</sub> A<sub>2</sub> … A<sub>n</sub>   
+B<sub>1</sub> B<sub>2</sub> … B<sub>m</sub>     
 
 ###Constraints###
 
