@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.fibonacci_modified;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author Aakansha Doshi
  *
  */
-public class FibonaciiModified {
+public class Fibonacci_Modified {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

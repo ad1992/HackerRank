@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.knapsack;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,10 +9,11 @@ import java.util.StringTokenizer;
  * @author Aakansha Doshi
  *
  */
-public class Knapsack {
+public class Knapsack 
+{
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		// TODO Auto-generated method stub
+		
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		String s;
 		StringTokenizer st;
@@ -32,8 +33,8 @@ public class Knapsack {
 				{
 					wt[i]=Integer.parseInt(st.nextToken());					
 				}
-				int[] knapsack=new int[k+1];int max=0;
-				for(int i=0;i<=k;i++)
+				int[] knapsack=new int[k+1];
+				for(int i=1;i<=k;i++)
 				{
 					for(int j=0;j<n;j++)
 					{

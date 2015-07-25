@@ -1,4 +1,6 @@
-package dynamicProgramming;
+package dynamicProgramming.the_longest_common_subsequence;
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,8 +9,7 @@ import java.util.StringTokenizer;
  * @author Aakansha Doshi
  *
  */
-public class The_Longest_Common_Subsequence
- {
+public class The_Longest_Common_Subsequence {
 
 	public static void main(String[] args) throws IOException {		
 			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));	
@@ -30,8 +31,7 @@ public class The_Longest_Common_Subsequence
 			{
 				second[i]=st.nextToken();
 			}
-			String store[]=new String[n+1];			
-			int lcs[][]=new int[n+1][m+1];int start1=0,start2=0;
+			int lcs[][]=new int[n+1][m+1];
 			
 			for(int i=0;i<=n;i++)
 			{
@@ -60,7 +60,15 @@ public class The_Longest_Common_Subsequence
 				
 				
 			}
-			
+			/*for(int i=0;i<=n;i++)
+			{
+				
+				for(int j=0;j<=m;j++)
+				{
+					System.out.print(lcs[i][j]+" ");
+				}
+				System.out.println();
+			}*/
 			//System.out.println(lcs[n][m]);
 			String ans="";
 			int i=n,j=m;
@@ -81,15 +89,7 @@ public class The_Longest_Common_Subsequence
 			}
 					
 			System.out.println(ans);
-			/*for(int i=0;i<=n;i++)
-			{
-				
-				for(int j=0;j<=m;j++)
-				{
-					System.out.print(store[i][j]+" ");
-				}
-				System.out.println();
-			}*/
+			
 			
 			
 		}

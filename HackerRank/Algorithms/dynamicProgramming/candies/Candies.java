@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.candies;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Candies {
 			i++;
 		}
 		int candie[]=new int[N];
-		candie[0]=1;int sum=0;
+		candie[0]=1;
 		for( i=1;i<N;i++)
 		{
 			candie[i]=1;
@@ -29,8 +29,18 @@ public class Candies {
 			{
 				candie[i]=candie[i-1]+1;
 			}
-			sum+=candie[i];
-		}
+			
+           // System.out.println(arr[i]+" "+candie[i]);
+        }
+        int sum=candie[N-1];
+        for( i=N-2;i>=0;i--)
+		{
+            if(arr[i]>arr[i+1])
+            {
+                candie[i]=Math.max(candie[i],candie[i+1]+1);
+            }
+            sum+=candie[i];
+        }
 		System.out.println(sum);
 		sc.close();
 	}

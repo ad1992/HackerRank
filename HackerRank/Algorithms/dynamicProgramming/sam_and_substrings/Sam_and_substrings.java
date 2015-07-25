@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.sam_and_substrings;
 
 import java.io.BufferedReader;
 import java.io.IOException;

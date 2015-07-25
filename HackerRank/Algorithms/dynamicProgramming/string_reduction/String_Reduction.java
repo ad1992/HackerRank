@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.string_reduction;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,24 +7,6 @@ import java.io.PrintWriter;
 
 /**
  * @author Aakansha Doshi
- * 
- *         String Reduction (25 Points)
- * 
- *         Given a string consisting of letters, a, b and c, we can perform the
- *         following operation: Take any two adjacent distinct characters and
- *         replace them with the third character. For example, if 'a' and 'c'
- *         are adjacent, they can replaced by 'b'. Find the smallest string
- *         which we can obtain by applying this operation repeatedly?
- * 
- *         Input: The first line contains the number of test cases T. T test
- *         cases follow. Each test case contains the string you start with.
- * 
- *         Output: Output T lines, one for each test case, containing the
- *         smallest length of the resultant string after applying the operations
- *         optimally.
- * 
- * 
- * 
  */
 public class String_Reduction {
 
