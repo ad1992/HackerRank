@@ -11,8 +11,8 @@ The first line of the input is an integer N, the number of children in Alice's c
 Output a single line containing the minimum number of candies Alice must buy.
 
 ###Constraints###
-1 <= N <= 10<sup>5</sup>
-1 <= rating<sub>i</sub> <= 10<sup>5</sup>
+1 <= N <= 10<sup>5</sup>  
+1 <= rating<sub>i</sub> <= 10<sup>5</sup>  
 
 ###Sample Input###
 ```
