@@ -1,16 +1,18 @@
-package dynamicProgramming;
+package dynamicProgramming.the_coin_change_problem;
 
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * @author Aakansha Doshi
  *
  */
-public class CoinChange {
+public class The_Coin_Change_Problem
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
+ {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
 		int N=sc.nextInt();
 		int M=sc.nextInt();
 		int i=0;
@@ -22,7 +24,7 @@ public class CoinChange {
 				i++;
 				
 		}
-		int ways[][]=new int[N+1][M+1];
+		long ways[][]=new long[N+1][M+1];
 		for(i=0;i<=M;i++)
 		{
 			ways[0][i]=1;
@@ -44,7 +46,7 @@ public class CoinChange {
 				
 			}
 		}
-
-	}
-
+        System.out.println(ways[N][M]);
+        sc.close();
+    }
 }
