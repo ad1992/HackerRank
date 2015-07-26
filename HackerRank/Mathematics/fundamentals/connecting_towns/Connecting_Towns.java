@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.connecting_towns;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
  * @author Aakansha Doshi
  *
  */
-public class ConnectingTowns {
+public class Connecting_Towns {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
