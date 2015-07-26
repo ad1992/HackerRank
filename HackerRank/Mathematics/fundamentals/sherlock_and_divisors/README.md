@@ -13,7 +13,7 @@ For each testcase, print the required answer in one line.
 
 ###Constraints###
 1≤T≤100
-1≤N≤109
+1≤N≤10<sup>9</sup>
 
 ###Sample Input###
 ```
