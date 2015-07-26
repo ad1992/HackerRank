@@ -9,7 +9,7 @@ But there are towns T<sub>2</sub>,T<sub>3</sub>,T<sub>4</sub>...T<sub>n-1</sub> 
 Find the total number of routes Gandalf can take to reach Rivendell from Rohan.
 
 ###Note###
-Gandalf has to pass all the towns T<sub>i for i=1 to n-1 in numerical order to reach T<sub>n</sub>.
+Gandalf has to pass all the towns T<sub>i</sub> for i=1 to n-1 in numerical order to reach T<sub>n</sub>.
 For each T<sub>i</sub> , T<sub>i+1</sub> there are only N<sub>i</sub> distinct routes Gandalf can take.
 
 ###Input Format###
@@ -24,7 +24,7 @@ Total number of routes from T<sub>1</sub> to T<sub>n</sub> modulo 1234567
 ###Constraints###
 1 <= T<=1000  
 2< N <=100  
-1 <= Ni <=1000  
+1 <= N<sub>i</sub> <=1000  
 
 ###Sample Input###
 ```
@@ -40,5 +40,5 @@ Total number of routes from T<sub>1</sub> to T<sub>n</sub> modulo 1234567
 8
 ```
 ###Explanation###
-Case 1: 1 route from T<sub>1 to T<sub>2, 3 routes from T<sub>2 to T<sub>3, hence only 3 routes.  
-Case 2: There are 2 routes from each city to the next, at each city, Gandalf has 2 choices to make, hence 2 * 2 * 2 = 8.  
+Case 1: 1 route from T<sub>1</sub> to T<sub>2</sub>, 3 routes from T<sub>2</sub> to T<sub>3</sub>, hence only 3 routes.    
+Case 2: There are 2 routes from each city to the next, at each city, Gandalf has 2 choices to make, hence 2 * 2 * 2 = 8.    
