@@ -25,7 +25,7 @@ public class Connecting_Towns {
 			if((s=br.readLine())!=null)
 			{
 				st=new StringTokenizer(s);
-				for(int i=0;i<s.length();i++)
+				for(int i=0;i<n-1;i++)
 				{
 					int num=Integer.parseInt(st.nextToken());
 					ans=(ans*(num%1234567))%1234567;
