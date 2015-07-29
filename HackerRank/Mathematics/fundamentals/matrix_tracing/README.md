@@ -18,8 +18,8 @@ The first line of input contains an integer T. T test cases follow.
 Each test case contains 2 space separated integers m & n (in a new line) indicating that the matrix has m rows and each row has n characters.  
 
 ###Constraints###
-1 <= T <= 10<sup>3<sup>  
-1 ≤ m,n ≤ 10<sup>6<sup>  
+1 <= T <= 10<sup>3</sup>  
+1 ≤ m,n ≤ 10<sup>6</sup>  
 
 ###Output Format###
 Print the number of ways (S) the word can be traced as explained in the problem statement. If the number is larger than 109+7,
