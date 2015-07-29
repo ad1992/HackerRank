@@ -35,7 +35,7 @@ Note: Chocolate must be served in 1 x 1 sized pieces. Alex can't relocate any of
 16
 ```
 ###Explanation###
-The explanation below is for the first two test cases. The rest of them follow a similar logic.  
-For the first test-case where K=5, you need 3 horizontal and 2 vertical cuts.  
+The explanation below is for the first two test cases. The rest of them follow a similar logic.    
+For the first test-case where K=5, you need 3 horizontal and 2 vertical cuts.    
 <img src="https://hr-challenge-images.s3.amazonaws.com/halloween-party.jpg">
-halloweenboard For the second test case, where K=6, you need 3 horizontal and 3 vertical cuts.  
+For the second test case, where K=6, you need 3 horizontal and 3 vertical cuts.    
