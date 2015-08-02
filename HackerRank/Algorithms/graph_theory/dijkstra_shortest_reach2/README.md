@@ -19,11 +19,11 @@ The next M lines each consist of three space separated integers x y r, where x a
 The last line has an integer S, denoting the starting position.
 
 ###Constraints###
-1≤T≤10
-2≤N≤3000
-1≤M≤(N×(N−1))/2
-1≤x,y,S≤N
-1≤r≤350
+1≤T≤10  
+2≤N≤3000  
+1≤M≤(N×(N−1))/2  
+1≤x,y,S≤N  
+1≤r≤350  
 
 If there are edges between the same pair of nodes with different weights, they are to be considered as is, like multiple edges.
 
@@ -49,11 +49,11 @@ For unreachable nodes, print −1.
 ```
 ###Explanation###
 
-The graph given in the test case is shown as :
-<img src="http://drive.google.com/uc?export=download&amp;id=0B_UrJ0h5_x_mTHdneVNUQ1RGc1E">   
+The graph given in the test case is shown as :  
+<img src="http://drive.google.com/uc?export=download&amp;id=0B_UrJ0h5_x_mTHdneVNUQ1RGc1E">       
 
 
-*    The straight line is a weighted edge, denoting length of edge between the corresponding nodes.
+*   The straight line is a weighted edge, denoting length of edge between the corresponding nodes.
 *   The nodes S,B,C and D denote the obvious node 1,2,3 and 4 in the test case.
 
 The shortest paths followed for the three nodes B,C and D are as follows :
