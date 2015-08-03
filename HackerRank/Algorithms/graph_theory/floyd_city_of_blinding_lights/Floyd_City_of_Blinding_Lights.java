@@ -13,6 +13,7 @@ import java.util.StringTokenizer;
 public class Floyd_City_of_Blinding_Lights {
 
 	public static void main(String[] args) throws IOException {
+		
 			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 			String s;
 	        StringTokenizer st;
@@ -22,6 +23,7 @@ public class Floyd_City_of_Blinding_Lights {
 	        int M=Integer.parseInt(st.nextToken());
 	        long arr[][]=new long[N+1][N+1];
 	        StringBuilder ans=new StringBuilder();
+	        
 	        for(int i=1;i<=N;i++)
 	        {
 	        	
@@ -47,6 +49,7 @@ public class Floyd_City_of_Blinding_Lights {
 	       
 	        while(Q-->0)
 	        {
+	        	
 	        	 s=br.readLine().trim();    	    	         
 	   		  	 st=new StringTokenizer(s);
 	             int v1=Integer.parseInt(st.nextToken());
@@ -59,7 +62,8 @@ public class Floyd_City_of_Blinding_Lights {
 	}
 
 	private static long[][]  floydWarshall(long[][] arr, int N) {
-		long dist[][]=new long[N+1][N+1];
+		
+		long dist[][]=new long[N+1][N+1];	
 		System.arraycopy(arr, 0, dist, 0, arr.length);
 		for(int k=1;k<=N;k++)
 		{
@@ -80,5 +84,3 @@ public class Floyd_City_of_Blinding_Lights {
 	}
 
 }
-
-
