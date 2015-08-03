@@ -51,4 +51,28 @@ Print a single integer deonting the total weight (sum of weights of all edges in
 ```
 ###Explanation###
 
-The graph given in the test case is shown as :
+The graph given in the test case is shown as :  
+
+<img src="http://drive.google.com/uc?export=download&amp;id=0B_UrJ0h5_x_ma3kyTEI4VWpCczQ">  
+
+*    The nodes A,B,C and D denote the obvious 1,2,3 and 4 node numbers.
+
+*    The starting node is A or 1 (in the given test case)
+
+Applying the Kruskal's algorithm, all the edges are sorted in ascending order of weight.  
+
+After sorting, the edge choices are available as :  
+
+A->C (WT. 3) , B->C (WT. 4) , A->B (WT. 5) , C->D (WT. 5) , A->D (WT. 6) and B->D (WT. 7)  
+
+Picking these edges and finalizing only if it doesnt create a cycle :  
+
+A->C : B->C  
+
+Now, when A->B edge is picked , it can be easily seen that they both belong to same set (form a cycle) and hence this edge is ignored.  
+
+The process continues and the following edge sequence is formed for the MST :  
+
+A->C : B->C : C->D  
+
+and Total weight of the hence formed Really Special SubTree is : 12   
