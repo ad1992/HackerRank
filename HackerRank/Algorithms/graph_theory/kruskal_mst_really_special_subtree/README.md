@@ -7,7 +7,7 @@ Given an undirected weighted graph, it is required to find the Really Special Su
 *    There is only one exclusive path from a node to every other node.
 *    The subgraph is of minimum overall weight (sum of all edges) among all such subgraphs.
 *    While creating the Really Special SubTree, start of by picking the edge with smallest weight. If there are edges of equal weight available at an instant, then the edge to be chosen first among them is the one with minimum value of sum of the following expression :
-     *  u + wt + v , where u-v are the node numbers of the corresponding edge and wt is the weight.
+       *  u + wt + v , where u-v are the node numbers of the corresponding edge and wt is the weight.
 *    Even then if there is a collision, choose any one of them.
 *    While doing the above, ensure that no cycle is formed while picking up edges.  
 
