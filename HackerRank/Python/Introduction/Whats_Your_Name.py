@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
+Problem link : https://www.hackerrank.com/challenges/whats-your-name/problem?h_r=internal-search
+
 Input Format The first line contains the first name, and the second line contains the last name.
 
 Constraints
@@ -12,4 +14,3 @@ Output Format Print the output as mentioned above.
 a=raw_input()
 b=raw_input()
 print "Hello "+a+" "+b+"! You just delved into python."
-

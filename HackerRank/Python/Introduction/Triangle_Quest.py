@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
+Problem link : https://www.hackerrank.com/challenges/python-quest-1/problem?h_r=internal-search
 You are given a positive integer N. You have to print a numerical triangle of height N−1 as shown below:
 
 1

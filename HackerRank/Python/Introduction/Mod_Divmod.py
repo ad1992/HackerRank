@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 '''
+Problem link : https://www.hackerrank.com/challenges/python-mod-divmod/problem?h_r=internal-search
 Task
 Read two integers, a and b, and print three lines.
 The first line is the integer division a//b (Remember to import division from __future__)
@@ -10,7 +11,7 @@ Input Format
 The first line contains the first integer, a, and the second line contains the second integer, b.
 
 Output Format
-Print the result as described above. 
+Print the result as described above.
 '''
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 a=(int)(raw_input())

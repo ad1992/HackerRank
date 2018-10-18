@@ -1,0 +1,7 @@
++ [Find the Runner-Up Score!](https://github.com/rection/HackerRank/blob/upgrade/python/HackerRank/Python/Basic%20Data%20Types/Find%20the%20Runner-Up%20Score!.py)
++ [Find the Runner-Up Score! - 2](https://github.com/rection/HackerRank/blob/upgrade/python/HackerRank/Python/Basic%20Data%20Types/Find%20the%20Runner-Up%20Score!%20-%202.py)
++ [Lists](https://github.com/rection/HackerRank/blob/upgrade/python/HackerRank/Python/Basic%20Data%20Types/Lists.py)
++ [Nested Lists](https://github.com/rection/HackerRank/blob/upgrade/python/HackerRank/Python/Basic%20Data%20Types/Nested%20Lists.py)
++ [List Comprehensions](https://github.com/rection/HackerRank/blob/upgrade/python/HackerRank/Python/Basic%20Data%20Types/List%20Comprehensions.py)
++ [Sets-Symmetric Difference](https://github.com/rection/HackerRank/blob/upgrade/python/HackerRank/Python/Basic%20Data%20Types/Sets-Symmetric%20Difference.py)
++ [Tuples](https://github.com/rection/HackerRank/blob/upgrade/python/HackerRank/Python/Basic%20Data%20Types/Tuples.py)
